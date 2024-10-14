@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "brndnwlshtweaks",
+	"version": "${version}",
+	"name": "BrndnWlsh's Tweaks",
+	"description": "A mod that includes some tweaks I would make to the game.",
+	"authors": [
+		"BrndnWlsh!"
+	],
+	"contact": {
+		"homepage": "https://github.com/BrndnWlsh",
+		"sources": "https://github.com/BrndnWlsh/BrndnWlshsTweaks1.21"
+	},
+	"license": "MIT",
+	"icon": "assets/brndnwlshtweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.brndnwlsh.BrndnWlshsTweaks"
+		],
+		"fabric-datagen": [
+			"net.brndnwlsh.BrndnWlshsTweaksDataGenerator"
+		],
+		"client": [
+			"net.brndnwlsh.BrndnWlshsTweaksClient"
+		]
+	},
+	"mixins": [
+		"brndnwlshtweaks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
