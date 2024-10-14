@@ -16,17 +16,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.brndnwlsh.BrndnWlshsTweaks"
+			"net.brndnwlsh.BrndnWlshsTweaks.BrndnWlshsTweaks"
 		],
 		"fabric-datagen": [
-			"net.brndnwlsh.BrndnWlshsTweaksDataGenerator"
+			"net.brndnwlsh.BrndnWlshsTweaks.BrndnWlshsTweaksDataGenerator"
 		],
 		"client": [
-			"net.brndnwlsh.BrndnWlshsTweaksClient"
+			"net.brndnwlsh.BrndnWlshsTweaks.BrndnWlshsTweaksClient"
 		]
 	},
 	"mixins": [
-		"brndnwlshtweaks.mixins.json"
+		"brndnwlshstweaks.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.7",

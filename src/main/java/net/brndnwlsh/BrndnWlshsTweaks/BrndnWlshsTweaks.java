@@ -1,4 +1,4 @@
-package net.brndnwlsh;
+package net.brndnwlsh.BrndnWlshsTweaks;
 
 import net.fabricmc.api.ModInitializer;
 
